@@ -41,9 +41,9 @@
 
       <ul class="nav-links" id="menu">
         <li><a href="#sobre">Sobre</a></li>
-        <!-- <li><a href="#experiencia">Experiência</a></li> -->
+        <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
-        <!-- <li><a href="#projetos">Projetos</a></li> -->
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#publicacoes">Publicações</a></li>
         <li><a href="#contato">Contato</a></li>
         <li>
@@ -148,11 +148,83 @@
       </div>
     </section>
 
+<!-- ================= EXPERIÊNCIA PROFISSIONAL ================= -->
+    <section id="experiencia" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experiência profissional</h2>
+        <p class="section-intro">Atuação no setor público federal com desenvolvimento de sistemas, automação de processos e dados.</p>
+
+        <ol class="timeline" data-sortable>
+          <li class="timeline-item current" data-sort="2026-08">
+            <span class="badge">Servidor Público · Atual</span>
+            <h3>Analista em Tecnologia da Informação</h3>
+            <p class="inst">Ministério da Gestão e da Inovação em Serviços Públicos (MGI) — SGP/DEPRO/CGACPNU</p>
+            <p class="meta">ago/2026 – atual · Brasília/DF</p>
+            <ul class="activities">
+              <li>Automação de processos internos.</li>
+              <li>Auditoria e validação de dados.</li>
+              <li>Padronização e preparação de dados para painéis gerenciais.</li>
+            </ul>
+            <ul class="tags tags-sm"><li>Python</li><li>Automação</li><li>Qualidade de dados</li><li>Painéis gerenciais</li></ul>
+          </li>
+
+          <li class="timeline-item" data-sort="2024-01">
+            <span class="badge">Servidor público</span>
+            <h3>Analista de Tecnologia da Informação</h3>
+            <p class="inst">Universidade Federal do Rio Grande do Sul (UFRGS) — Centro de Processamento de Dados (CPD)</p>
+            <p class="meta">jan/2024 – ago/2026 · Porto Alegre/RS</p>
+            <ul class="activities">
+              <li>Membro titular do Conselho Diretor do CPD.</li>
+              <li>Presidente da Comissão de Saúde e Ambiente de Trabalho do CPD (equivalente à CIPA).</li>
+              <li>Levantamento e análise de necessidades junto às áreas de negócio para novas funcionalidades dos sistemas.</li>
+              <li>Desenvolvimento e manutenção de sistemas institucionais usados nos processos administrativos e acadêmicos da universidade.</li>
+              <li>Soluções voltadas à melhoria de processos e à transformação digital de serviços, com foco no usuário.</li>
+            </ul>
+            <ul class="tags tags-sm"><li>PHP / Yii</li><li>SQL</li><li>Sistemas web</li></ul>
+          </li>
+
+          <li class="timeline-item" data-sort="2018-08">
+            <span class="badge">Servidor público</span>
+            <h3>Técnico de Tecnologia da Informação</h3>
+            <p class="inst">Universidade Federal do Rio Grande do Sul (UFRGS)</p>
+            <p class="meta">ago/2018 – jan/2024 · Porto Alegre/RS</p>
+            <ul class="activities">
+              <li>Desenvolvimento e manutenção de sistemas institucionais web, com foco em novas funcionalidades e suporte evolutivo.</li>
+              <li>Participação em instâncias institucionais, como comissões e conselhos.</li>
+            </ul>
+            <ul class="tags tags-sm"><li>PHP / Yii</li><li>SQL</li><li>Sistemas web</li></ul>
+          </li>
+
+          <li class="timeline-item" data-sort="2015-06">
+            <span class="badge">Bolsista</span>
+            <h3>Bolsista de Desenvolvimento de Sistemas</h3>
+            <p class="inst">Universidade Federal do Rio Grande do Sul (UFRGS)</p>
+            <p class="meta">jun/2015 – jul/2018 · Porto Alegre/RS</p>
+            <ul class="activities">
+              <li>Desenvolvimento de sistemas em projetos institucionais vinculados às Pró-Reitorias e Fundações de apoio.</li>
+            </ul>
+            <ul class="tags tags-sm"><li>PHP</li><li>jQuery</li></ul>
+          </li>
+
+          <li class="timeline-item" data-sort="2013-06">
+            <span class="badge">Estágio</span>
+            <h3>Estagiário — Programador Web</h3>
+            <p class="inst">Fundação Universidade Federal do Pampa (Unipampa)</p>
+            <p class="meta">jun/2013 – dez/2013 · Alegrete/RS</p>
+            <ul class="activities">
+              <li>Desenvolvimento do sistema acadêmico GURI.</li>
+            </ul>
+            <ul class="tags tags-sm"><li>PHP</li><li>jQuery</li></ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
     <!-- ================= FORMAÇÃO ================= -->
     <!--
       Ordenação automática: data-sort = ano de conclusão (use 9999 para curso em andamento).
     -->
-    <section id="formacao" class="section section-alt">
+    <section id="formacao" class="section">
       <div class="container">
         <h2 class="section-title">Formação acadêmica</h2>
 
@@ -195,6 +267,89 @@
             <p class="meta">2014 – 2023 · Projeto: <a href="#projetos">SACV</a></p>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- ================= PROJETOS ================= -->
+    <!-- Ordenação automática: data-sort = ano (9999 para em andamento). -->
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projetos e ferramentas</h2>
+        <p class="section-intro">Softwares desenvolvidos em projetos pessoais e durante a formação acadêmica.</p>
+
+          <article class="card" data-sort="2026">
+            <div class="card-head">
+              <span class="card-icon" aria-hidden="true">P</span>
+              <div>
+                <h3>PHP Secret Scanner LLM</h3>
+                <p class="card-sub">Mestrado · Unipampa · 2026</p>
+              </div>
+            </div>
+            <p>
+              Ferramenta de linha de comando, em Python, que identifica possíveis segredos expostos
+              em código PHP, como senhas, tokens, chaves de API e credenciais de banco de dados.
+              Usa uma abordagem híbrida: heurísticas apontam as linhas suspeitas, os valores sensíveis
+              são sanitizados e, opcionalmente, um LLM apoia a classificação dos achados, com registro
+              auditável dos prompts enviados. Gera relatórios em Markdown e HTML. Desenvolvida em
+              disciplina do mestrado em Engenharia de Software, com uso intensivo de IA generativa
+              como objeto de estudo, da arquitetura à documentação.
+            </p>
+            <ul class="tags tags-sm">
+              <li>Python</li><li>LLMs</li><li>Segurança de software</li><li>Análise estática</li><li>IA generativa</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://github.com/adrianogomes/php-secret-scanner-llm" target="_blank" rel="noopener">Repositório →</a>
+            </div>
+          </article>
+
+          <article class="card" data-sort="2026">
+            <div class="card-head">
+              <span class="card-icon" aria-hidden="true">F</span>
+              <div>
+                <h3>Fatus</h3>
+                <p class="card-sub">Especialização · UFRGS · 2026</p>
+              </div>
+            </div>
+            <p>
+              Ferramenta de Automatização de Testes Unitários que usa LLMs para gerar casos de teste.
+              Desenvolvida em Python, a Fatus realiza a extração do código-fonte de aplicações PHP construídas com o
+              framework Yii, envia esse contexto a modelos de linguagem de grande escala (LLMs) por meio de API REST e integra
+              os testes gerados ao Codeception, que os executa. Projeto de conclusão da especialização
+              em Engenharia de Software para Aplicações de Ciência de Dados (UFRGS).
+            </p>
+            <ul class="tags tags-sm">
+              <li>Python</li><li>LLMs</li><li>Testes unitários</li><li>Codeception</li>
+            </ul>
+            <div class="card-links">
+              <!-- <a href="https://github.com/SEU-USUARIO/fatus" target="_blank" rel="noopener">Repositório →</a> -->
+              <a href="#publicacoes">TCC →</a>
+            </div>
+          </article>
+
+          <article class="card" data-sort="2015">
+            <div class="card-head">
+              <span class="card-icon" aria-hidden="true">S</span>
+              <div>
+                <h3>SACV</h3>
+                <p class="card-sub">Graduação · UFRGS · 2023</p>
+              </div>
+            </div>
+            <p>
+              Sistema de Agendamento de Clínica Veterinária: aplicação web em que tutores e médicos
+              veterinários agendam consultas e gerenciam cadastros. Inclui cadastro de tutores e animais,
+              consulta de prontuários, envio de e-mails, emissão de relatórios e controle de permissões
+              por perfil de usuário. Desenvolvido em PHP com Yii 2.0 e Bootstrap, como trabalho de
+              conclusão do bacharelado em Ciência da Computação da UFRGS.
+            </p>
+            <ul class="tags tags-sm">
+              <li>PHP</li><li>Yii 2.0</li><li>Bootstrap</li><li>Web</li>
+            </ul>
+            <div class="card-links">
+              <!-- <a href="https://github.com/SEU-USUARIO/sacv" target="_blank" rel="noopener">Repositório →</a> -->
+              <a href="#publicacoes">TCC →</a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
